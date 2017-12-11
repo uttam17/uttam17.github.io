@@ -1,1 +1,137 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <meta name="description" content="Take a quick break using this simple productivity tool.">
+    <meta property="og:title" content="Uttam Kumaran">
+    <meta property="og:image" content="http://www.takeafive.com/img/fbimg2.png">
+    <meta property="og:site_name" content="Take a Five - Productivity Tool">
+    <meta property="og:url" content='http://www.takeafive.com'>
+    <meta property="og:description" content="Stop procrastinating endlessly! Use Take a Five to open a self-destructing tab when you take a break.">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <!--         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ -->
+    </div>
+    <div class="header-links">
+    <a id="hci-link" class="header-links" href="#ok">HCI</a>
+    <!-- <a href="#">Skills</a> -->
+    <a id="me-link" class="header-links" href="#resume">Me</a>
+
+    <a id="resume-link" class="header-links" href="#resume">Resume</a>
+</div>
+    <div id="main">
+        <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+        <div class="center_div">
+            <div id="maintitle">
+                <p>Uttam Kumaran
+                </p>
+            </div>
+            <div id="subtitle">
+                <p>&nbsp;</p>
+                <h3>Computer Engineering Student</h3>
+            </div>
+        </div>
+        <a href="#" class="scroll-down" address="true"></a>
+        <!--<span class="hint">scroll</span>-->
+        </a>
+    </div>
+    <section id="ok" class="ok">
+        <p id="HCI-text"> In Human Computer Interaction, we were given 8 design sprints in which we developed products, designs, or functioning prototypes centered on a theme. Click on each of the boxes below to get a quick insight into each. There is a <img id=medium-image src=Wordmark_Black.png> article associated with each project summarizing the sprint.
+        </p>
+        <div class="wrapper">
+            <div class="box a"><a class="open-modal" href="#ex1" rel="modal:open">Good Design, Bad Design</a></div>
+            <div id="ex1" class="modal">
+                <a href="https://medium.com/@uttam17/good-design-bucknell-edition-eb75aacaefd4" target="_blank">
+                    <p class="modal-title">Good Design Bad Design</p>
+                </a>
+                <p><img id="goodDesign-image" src=goodDesign.png></p>
+                <p class="modal-text">In this project, the goal was to find one example of a good design and one of a bad design on Bucknell University's website. I was tasked with explaining through text and images why I preferred one design and why I disliked the other. Click the title to learn more.</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div class="box b"><a class="open-modal" href="#ex2" rel="modal:open">Design for Understanding</a></div>
+            <div id="ex2" class="modal">
+                <a href="https://medium.com/@as062_44535/clear-communication-vs-persuasion-same-data-different-message-8f32b611810a" target="_blank">
+                    <p class="modal-title">Design for Understanding</p>
+                </a>
+                <p><img id="goodDesign-image" src=designForUnderstanding.png></p>
+                <p class="modal-text">Data visualization is an amazing field that has changed how we consume news and information. We were given many large data sets to attempt to find patterns and trends to explain to our audience. Click the title to learn more.</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div class="box c"><a class="open-modal" href="#ex3" rel="modal:open">Design for Tension</a></div>
+            <div id="ex3" class="modal">
+                <a href="https://medium.com/@as063/meet-alice-the-chatbot-that-helps-you-talk-about-death-3595627c740a" target="_blank">
+                    <p class="modal-title">Design for Tension</p>
+                </a>
+                <p><img id="goodDesign-image" src=designForTension.png></p>
+                <p class="modal-text">This was the most difficult project to develop and design for. We were to tackle a tense topic through the use of a chatbot. We decided to make a bot that helped people deal with death. Click the title to learn more.</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div class="box d"><a class="open-modal" href="#ex4" rel="modal:open">Design for Fun</a></div>
+            <div id="ex4" class="modal">
+                <a href="https://medium.com/@uttam17/icebreaker-powered-by-leap-5677ea78830c" target="_blank">
+                    <p class="modal-title">Design for Fun</p>
+                </a>
+                <p><img id="goodDesign-image" src=designForFun.png></p>
+                <p class="modal-text">We took advantage of Leap Motion technology in this design sprint to create a new interface for one of our favorite online games. We converted Ice Breaker so the user can use Leap controllers to interact with the game and save the day. Click the title to learn more.</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div class="box e"><a class="open-modal" href="#ex5" rel="modal:open">Design for Wellbeing</a></div>
+            <div id="ex5" class="modal">
+                <a href="https://medium.com/@jennaslusar/affectiva-promoting-wellbeing-c8cc3e2cdeb" target="_blank">
+                    <p class="modal-title">Design for Wellbeing</p>
+                </a>
+                <p><img id="goodDesign-image" src=DesignForWellbeing.png></p>
+                <p class="modal-text">This was by far my favorite design sprint and final prototype of all seven. We worked to create a website that promoted wellbeing using Affectiva's video processing libraries. We tracked users emotion and presented them with memes, gifs, and quotes based on their facial emotion. Click the title and find out more!</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div class="box f"><a class="open-modal" href="#ex6" rel="modal:open">Design for Others</a></div>
+            <div id="ex6" class="modal">
+                <a href="https://medium.com/@cactuschambers/designing-for-others-d7c22d5c35b7" target="_blank">
+                    <p class="modal-title">Design for Others</p>
+                </a>
+                <p><img id="goodDesign-image" src=designForOthers.png></p>
+                <p class="modal-text">Our first design sprint was an exciting jump into the world of HCI. We were tasked to redesign a local organization's website. We chose our local Campus Theatre and redesigned their site to accomodate more for people with accessibility issues. Click the title to learn more!</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div class="box g"><a class="open-modal" href="#ex7" rel="modal:open">Design for Another World</a></div>
+            <div id="ex7" class="modal">
+                <a href="https://medium.com/@nrs007/designing-another-world-creating-a-vr-escape-room-scavenger-hunt-game-c11493f4fc73" target="_blank">
+                    <p class="modal-title">Design for Another World</p>
+                </a>
+                <p><img id="goodDesign-image" src=designForAnotherWorld.png></p>
+                <p class="modal-text">This design sprint allowed us to explore the wonderful world of VR. We used Google Cardboard and A-Frame to develop a new world for our user's to discover. Click the title to see what we made! </p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+        </div>
+    </section>
+    <hr style="width:90%; margin-top: 5%; border-width: 2px">
+    <section id="ok bio" class="ok">
+        <p id="bio-text"> I'm a student at Bucknell University studying Computer Engineering. I'm from the Bay Area but looking for roles in New York for next year. I'm always exploring new ideas and am always looking to learn more.
+            <br>
+            <br> I'm currently reading a great book titled <a style="color:#f5251acc; text-decoration: underline" href="https://smile.amazon.com/Stumbling-Happiness-Daniel-Gilbert-ebook/dp/B000GCFW0A/ref=sr_1_1?ie=UTF8&qid=1512968405&sr=8-1&keywords=stumbling+on+happiness">Stumbling on Happiness</a>.
+            <br>
+            <br> Connect with me on <a style="color: #0084bf; text-decoration: underline" href="https://www.linkedin.com/in/ukumaran/"> LinkedIn</a> or <a style="text-decoration: underline" href="mailto:ukumaran@gmail.com">Email</a> me if you'd like to chat!
+        </p>
+    </section>
+    <hr style="width:90%; margin-top: 5%; border-width: 2px">
+    <section id="resume" class="ok">
+        <p id=resumeText>Check out my&nbsp;<a id="resumeLink" target="_blank" href="/UttamResume.pdf"> resume!</a></p>
+    </section>
+    <<footer>
+        <p>Uttam Kumaran &copy; 2017</p>
+        </footer>
+</body>
+
+</html>
